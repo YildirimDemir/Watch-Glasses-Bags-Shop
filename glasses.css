@@ -1,0 +1,169 @@
+/****************************************** Glasses-CSS-START **********************************************************/
+.glasses-content {
+    width: 100%;
+    height: auto;
+}
+.card{
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+/********************* gender-switch *********************/
+.middle {
+    margin: 200px auto 0;
+    width: 280px;
+    position: relative;
+}
+
+span.male-switch,
+span.female-switch {
+    float: left;
+    font-size: 18px;
+    color: black;
+    margin-top: 2px;
+}
+
+.switch-gender {
+    position: relative;
+    float: left;
+    height: 30px;
+    width: 60px;
+    margin: 0 10px;
+    background: #919191;
+    border-radius: 100px;
+    border: 1px solid black;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+}
+
+.switch-label {
+    position: relative;
+    z-index: 2;
+    float: left;
+    width: 28px;
+    height: 28px;
+    border-radius: 100px;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    cursor: pointer;
+}
+
+.switch-label:active {
+    font-weight: bold;
+}
+
+.switch-label-off {
+    padding-left: 2px;
+}
+
+.switch-label-on {
+    padding-right: 2px;
+}
+
+.switch-input {
+    display: none;
+}
+
+.switch-input:checked+.switch-label {
+    -webkit-transition: 0.15s ease-out;
+    -moz-transition: 0.15s ease-out;
+    -o-transition: 0.15s ease-out;
+    transition: 0.15s ease-out;
+}
+
+.switch-input:checked+.switch-label-on~.switch-selection {
+    /* Note: left: 50% doesn't transition in WebKit */
+    left: 31px;
+}
+
+.switch-selection {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    top: 0.5px;
+    left: 1px;
+    width: 28px;
+    height: 28px;
+    background: black;
+    border-radius: 100px;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -webkit-transition: left 0.15s ease-out;
+    -moz-transition: left 0.15s ease-out;
+    -o-transition: left 0.15s ease-out;
+    transition: left 0.15s ease-out;
+}
+/********************* gender-switch *********************/
+.glasses-video video{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.glasses-price input{
+width: 70%;
+border: 2px solid black;
+}
+.glasses-price,.glasses-lens,.glasses-size,.glasses-frame,.glasses-material{
+    border-left: 2px solid black;
+}
+.glasses-gender,.glasses-price,.glasses-lens,.glasses-size,.glasses-frame,.glasses-material{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.lens-down,.frame-down,.gender-down,.price-down,.size-down,.frame-down,.material-down{
+    width: 100%;
+    height: 45%;
+}
+.price-down button{
+    width: 30%;
+    height: 100%;
+}
+.price-down input{
+    width: 60%;
+    height: 100%;
+}
+.lens-green{
+    background-color: green;
+    width: 13%;
+    height: 70%;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.lens-black,.frame-black{
+    background-color: black;
+    width: 13%;
+    height: 70%;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.lens-blue{
+    background-color: rgb(68, 68, 247);
+    width: 13%;
+    height: 70%;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.lens-brown,.frame-brown{
+    background-color: rgb(119, 79, 55);
+    width: 13%;
+    height: 70%;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.lens-gold,.frame-gold{
+    background: linear-gradient(341deg, rgba(253,187,45,1) 20%, rgba(255,249,235,1) 56%, rgba(255,218,0,1) 89%);
+    width: 13%;
+    height: 70%;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.frame-copper{
+    background: linear-gradient(341deg, rgba(206,143,126,1) 20%, rgba(255,249,235,1) 56%, rgba(206,143,126,1) 89%);
+    width: 13%;
+    height: 70%;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.frame-grey{
+    background-color: rgb(158, 158, 158);
+    width: 13%;
+    height: 70%;
+    border-radius: 50%;
+    border: 1px solid black;
+}
