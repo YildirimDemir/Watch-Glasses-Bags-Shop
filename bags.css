@@ -22,74 +22,9 @@
     text-shadow: 0 0 9px;
 }
 .blnk {
-    height: 60px;
-    width: 95%;
-    color: white;
-    margin-bottom: 10px;
-    margin-left: auto;
-    margin-right: auto;
-}
-.opt {
-    height: 300vh;
-    /* background-color: rgba(255, 0, 0, 0.137); */
-    border-right: 1px solid gray;
-    padding: 40px;
-}
-.itm {
-    height: fit-content;
-    /* background-color: rgba(0, 0, 255, 0.171); */
-    padding: 40px;
-}
-.optBaslik {
-    border-bottom: 1px solid black;
-    padding-bottom: 10px;
-}
-.baslik {
-    margin-bottom: 2rem;
-}
-.baslik li {
-    font-family: Arial, Helvetica, sans-serif;
-    transition: all 300ms;
-    border-bottom: 1px solid transparent;
-}
-.baslik li:hover {
-    border-bottom: 1px solid black;
-    scale: 1.01;
-}
-.baslik li:active {
-    border-bottom: 1px solid black;
-    scale: 1;
-}
-.bag {
-    /* border: 1px solid black; */
-    margin-left: 50px;
-    margin-right: 50px;
-    width: 350px;
-    height: 410px;
-    margin-bottom: 50px;
-    display: flex;
-    flex-direction: column;
-}
-.animated {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-}
-.animated img {
-    width: 100%;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-right: auto;
-    margin-left: auto;
-}
-.aciklamas {
-    margin-top: auto;
-    margin-bottom: 0;
-}
-.animated h6 {
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    width: 300px;
+    height: 150px;
+    background-color: #CAECED;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 .dior {
     display: flex;
