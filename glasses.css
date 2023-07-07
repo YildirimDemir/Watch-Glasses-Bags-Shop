@@ -3,10 +3,7 @@
     width: 100%;
     height: auto;
 }
-.card{
-    border: none;
-    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
-}
+
 /********************* gender-switch *********************/
 .middle {
     margin: 200px auto 0;
@@ -92,78 +89,185 @@ span.female-switch {
     -o-transition: left 0.15s ease-out;
     transition: left 0.15s ease-out;
 }
+
 /********************* gender-switch *********************/
-.glasses-video video{
+.glasses-video video {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
-.glasses-price input{
-width: 70%;
-border: 2px solid black;
+
+.glasses-price input {
+    width: 70%;
+    border: 2px solid black;
 }
-.glasses-price,.glasses-lens,.glasses-size,.glasses-frame,.glasses-material{
+
+.glasses-price,
+.glasses-lens,
+.glasses-frame,
+.glasses-size,
+.glasses-material {
     border-left: 2px solid black;
 }
-.glasses-gender,.glasses-price,.glasses-lens,.glasses-size,.glasses-frame,.glasses-material{
+
+.glasses-gender,
+.glasses-price,
+.glasses-lens,
+.glasses-size,
+.glasses-frame,
+.glasses-material {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
-.lens-down,.frame-down,.gender-down,.price-down,.size-down,.frame-down,.material-down{
+
+.lens-down,
+.frame-down,
+.gender-down,
+.price-down,
+.size-down,
+.frame-down,
+.material-down {
     width: 100%;
-    height: 45%;
+    height: 5.5vh;
 }
-.price-down button{
+
+.price-down input {
+    width: 60%;
+    height: 5vh;
+}
+.size-down button,.material-down button,.price-down button{
     width: 30%;
     height: 100%;
+    font-size: 90%;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
-.price-down input{
-    width: 60%;
-    height: 100%;
+
+.size-down button:hover,.material-down button:hover,.price-down button:hover{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
-.lens-green{
+
+.l-green {
     background-color: green;
     width: 13%;
     height: 70%;
     border-radius: 50%;
-    border: 1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
-.lens-black,.frame-black{
+
+.l-green:hover{
+    background-color: green;
+    border: 2px solid black;
+}
+
+.l-black,
+.f-black {
     background-color: black;
     width: 13%;
     height: 70%;
     border-radius: 50%;
-    border: 1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
-.lens-blue{
+
+.l-black:hover,.f-black:hover{
+    background-color: black;
+    border: 2px solid red;
+}
+
+.l-blue {
     background-color: rgb(68, 68, 247);
     width: 13%;
     height: 70%;
     border-radius: 50%;
-    border: 1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
-.lens-brown,.frame-brown{
+
+.l-blue:hover{
+    background-color: rgb(68, 68, 247);
+    border: 2px solid black;
+}
+
+.l-brown,
+.f-brown {
     background-color: rgb(119, 79, 55);
     width: 13%;
     height: 70%;
     border-radius: 50%;
-    border: 1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
-.lens-gold,.frame-gold{
-    background: linear-gradient(341deg, rgba(253,187,45,1) 20%, rgba(255,249,235,1) 56%, rgba(255,218,0,1) 89%);
+
+.l-brown:hover,.f-brown:hover{
+    background-color: rgb(119, 79, 55);
+    border: 2px solid black;
+}
+
+.l-gold,
+.f-gold {
+    background: linear-gradient(341deg, rgba(253, 187, 45, 1) 20%, rgba(255, 249, 235, 1) 56%, rgba(255, 218, 0, 1) 89%);
     width: 13%;
     height: 70%;
     border-radius: 50%;
-    border: 1px solid black;
+    box-shadow: rgba(243, 237, 237, 0.17) 0px -23px 25px 0px inset, rgba(255, 254, 254, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
-.frame-copper{
-    background: linear-gradient(341deg, rgba(206,143,126,1) 20%, rgba(255,249,235,1) 56%, rgba(206,143,126,1) 89%);
+
+.l-gold:hover,.f-gold:hover{
+    background: linear-gradient(341deg, rgba(253, 187, 45, 1) 20%, rgba(255, 249, 235, 1) 56%, rgba(255, 218, 0, 1) 89%);
+    border: 2px solid black;
+}
+
+.f-copper {
+    background: linear-gradient(341deg, rgba(206, 143, 126, 1) 20%, rgba(255, 249, 235, 1) 56%, rgba(206, 143, 126, 1) 89%);
     width: 13%;
     height: 70%;
     border-radius: 50%;
-    border: 1px solid black;
+    box-shadow: rgba(219, 217, 217, 0.17) 0px -23px 25px 0px inset, rgba(245, 242, 242, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
-.frame-grey{
+
+.f-copper:hover{
+    background: linear-gradient(341deg, rgba(206, 143, 126, 1) 20%, rgba(255, 249, 235, 1) 56%, rgba(206, 143, 126, 1) 89%);
+    border: 2px solid black;
+}
+
+.f-grey {
     background-color: rgb(158, 158, 158);
     width: 13%;
     height: 70%;
     border-radius: 50%;
-    border: 1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.f-grey:hover{
+    background-color: rgb(158, 158, 158);
+    border: 2px solid black;
+}
+
+.g-product {
+    padding: 1rem;
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.474) 0px 30px 60px -12px, rgba(0, 0, 0, 0.633) 0px 18px 36px -18px;
+}
+
+.g-detail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100%;
+    width: 45%;
+    height: 10%;
+    background-color: white;
+    border: 2px solid rgb(33, 37, 41);
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.g-detail:hover{
+    border: 2px solid rgb(33, 37, 41);
+    color: white;
+    background-color: rgb(33, 37, 41);
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.carousel-indicators{
+    margin: auto;
+    background-color: rgba(33, 37, 41, 0.813);
+    width: 30%;
+    border-radius: 30px;
 }
