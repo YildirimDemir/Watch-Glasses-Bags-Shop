@@ -2,95 +2,10 @@
 .glasses-content {
     width: 100%;
     height: auto;
+    background: linear-gradient(0deg, rgba(144,143,143,1) 0%, rgba(255,255,255,1) 72%, rgba(255,255,255,1) 100%);
+    margin-top: auto;
 }
 
-/********************* gender-switch *********************/
-.middle {
-    margin: 200px auto 0;
-    width: 280px;
-    position: relative;
-}
-
-span.male-switch,
-span.female-switch {
-    float: left;
-    font-size: 18px;
-    color: black;
-    margin-top: 2px;
-}
-
-.switch-gender {
-    position: relative;
-    float: left;
-    height: 30px;
-    width: 60px;
-    margin: 0 10px;
-    background: #919191;
-    border-radius: 100px;
-    border: 1px solid black;
-    -moz-border-radius: 100px;
-    -webkit-border-radius: 100px;
-}
-
-.switch-label {
-    position: relative;
-    z-index: 2;
-    float: left;
-    width: 28px;
-    height: 28px;
-    border-radius: 100px;
-    -moz-border-radius: 100px;
-    -webkit-border-radius: 100px;
-    cursor: pointer;
-}
-
-.switch-label:active {
-    font-weight: bold;
-}
-
-.switch-label-off {
-    padding-left: 2px;
-}
-
-.switch-label-on {
-    padding-right: 2px;
-}
-
-.switch-input {
-    display: none;
-}
-
-.switch-input:checked+.switch-label {
-    -webkit-transition: 0.15s ease-out;
-    -moz-transition: 0.15s ease-out;
-    -o-transition: 0.15s ease-out;
-    transition: 0.15s ease-out;
-}
-
-.switch-input:checked+.switch-label-on~.switch-selection {
-    /* Note: left: 50% doesn't transition in WebKit */
-    left: 31px;
-}
-
-.switch-selection {
-    display: block;
-    position: absolute;
-    z-index: 1;
-    top: 0.5px;
-    left: 1px;
-    width: 28px;
-    height: 28px;
-    background: black;
-    border-radius: 100px;
-    -moz-border-radius: 100px;
-    -webkit-border-radius: 100px;
-    -webkit-transition: left 0.15s ease-out;
-    -moz-transition: left 0.15s ease-out;
-    -o-transition: left 0.15s ease-out;
-    transition: left 0.15s ease-out;
-}
-
-/********************* gender-switch *********************/
 .glasses-video video {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
@@ -125,21 +40,29 @@ span.female-switch {
 .frame-down,
 .material-down {
     width: 100%;
-    height: 5.5vh;
+    height: 100%;
+}
+
+.gender-up h2,.lens-up h2,.frame-up h2,
+.price-up h2,.size-up h2,.material-up h2{
+    font-size: 100%;
 }
 
 .price-down input {
     width: 60%;
     height: 5vh;
 }
-.size-down button,.material-down button,.price-down button{
+.size-down button,.material-down button,.price-down button,.gender-down button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 30%;
     height: 100%;
-    font-size: 90%;
+    font-size: 70%;
     box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 
-.size-down button:hover,.material-down button:hover,.price-down button:hover{
+.size-down button:hover,.material-down button:hover,.price-down button:hover,.gender-down button:hover{
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
@@ -271,3 +194,12 @@ span.female-switch {
     width: 30%;
     border-radius: 30px;
 }
+
+@media (max-width:576px){
+.l-green,.l-black,.l-blue,.l-brown,.l-gold,
+.f-black,.f-brown,.f-copper,.f-gold,.f-grey
+{
+    height: 5vh;
+}
+}
+/****************************************** Glasses-CSS-END **********************************************************/

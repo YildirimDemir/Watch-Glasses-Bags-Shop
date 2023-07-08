@@ -1,0 +1,77 @@
+.bgsp {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.452), rgba(0, 0, 0, 0.411)),     url(/main-img/bags-img/bags-product-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.bgsp h1{
+    font-size: 90px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    text-shadow: 0 0 10px;
+} 
+.blnk {
+    height: 140px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffffb0;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.555) 0px 18px 36px -18px inset;
+}
+.blnk h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    padding-bottom: 5px;
+    width: 600px;
+    text-align: center;
+    border-bottom: 1px solid rgba(163, 163, 163, 0.418);
+}
+.back-genel-baya-of {
+    background-color: #d1d1d1;
+}
+.box {
+    height: 450px;
+    width: 330px;
+    border: 1px outset black;
+    border-radius: 6px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.671) 0px 30px 60px -30px;
+    transition: all 300ms;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 20px;
+    background-color: white
+}
+.details-bags button {
+    padding: 6px;
+    width: 150px;
+    background-color: rgb(184, 184, 184);
+    border: 1px solid rgba(165, 163, 163, 0.452);
+    border-radius: 75px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    transition: all 300ms;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.details-bags button:hover {
+    background-color: gray;
+}
+.box img {
+    width: 100%;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+.box:hover {
+    scale: 1.03;
+}
