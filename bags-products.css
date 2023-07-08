@@ -75,3 +75,12 @@
 .box:hover {
     scale: 1.03;
 }
+.filters {
+    display: flex;
+}
+.filters p{
+    margin-bottom: 0;    
+}
+.filters p:first-child{
+    margin-right: 10px;    
+}
