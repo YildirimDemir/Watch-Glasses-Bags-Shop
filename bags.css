@@ -31,7 +31,7 @@
     background: linear-gradient(to left, #D2D4D3, rgb(148, 148, 148));
 }
 .dior-img {
-    background-image: url(/bags-img/bag-main.avif);
+    background-image: url(main-img/bags-img/bag-main.avif);
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
@@ -97,7 +97,7 @@
     background: linear-gradient(to right, #c9ae90, #F6EDDD);
 }
 .gucci-img {
-    background-image: url(/bags-img/gucci.webp);
+    background-image: url(main-img/bags-img/gucci.webp);
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
@@ -164,7 +164,7 @@
     background: linear-gradient(to left, #B1C0DF, #8399CA);
 }
 .prada-img {
-    background-image: url(/bags-img/prada.jpeg);
+    background-image: url(main-img/bags-img/prada.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
@@ -229,7 +229,7 @@
     background: linear-gradient(to right, #ff5757, #CAECED);
 }
 .lacoste-img {
-    background-image: url(/bags-img/lacoste.jpg);
+    background-image: url(main-img/bags-img/lacoste.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
