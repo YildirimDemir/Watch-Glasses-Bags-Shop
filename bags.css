@@ -1,5 +1,5 @@
 .head-1 {
-    background: url(/bags-img/most-iconic-it-bags.jpg);
+    background: url(main-img/bags-img/most-iconic-it-bags.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -68,6 +68,11 @@
      font-size: 19px;
      margin-top: 1rem;
 }
+.dior-aciklama a {
+    float: right;
+    margin-left: auto;
+    margin-top: auto;
+}
 .dior-aciklama button {
     background-color: transparent;
     border: 1px solid gray;
@@ -135,6 +140,11 @@
      font-size: 19px;
      margin-top: 1rem;
 }
+.gucci-aciklama a {
+    float: right;
+    margin-left: auto;
+    margin-top: auto;
+}
 .gucci-aciklama button {
     background-color: transparent;
     border: 1px solid gray;
@@ -199,6 +209,11 @@
     list-style:inside disc !important;
      font-size: 19px;
      margin-top: 1rem;
+}
+.prada-aciklama a {
+    float: right;
+    margin-left: auto;
+    margin-top: auto;
 }
 .prada-aciklama button {
     background-color: transparent;
@@ -266,6 +281,11 @@
     list-style:inside disc !important;
      font-size: 19px;
      margin-top: 1rem;
+}
+.lacoste-aciklama a {
+    float: right;
+    margin-left: auto;
+    margin-top: auto;
 }
 .lacoste-aciklama button {
     background-color: transparent;
