@@ -136,6 +136,11 @@
     background-image: url(main-img/watches-img/bulgari-cont-bg.webp);
 }
 
+.watch-brand-container button a{
+    color: #fff;
+    text-decoration: none;
+}
+
 @media(max-width:576px){
     .header-watch  h1 {
         font-size: 3.5rem;
