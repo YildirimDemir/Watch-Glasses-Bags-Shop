@@ -101,3 +101,16 @@
     50%{background-position: 50% 100%;}
     100%{background-position: 0% 50%;}
 }
+
+
+.filters select option{
+    background: linear-gradient(180deg, #000, #0a316f);
+    background-size: 200% 200%;
+    animation: bg 4s ease-in-out infinite;
+    color: #fff;
+  }
+  @keyframes bg{
+      0%{background-position: 0% 50%;}
+      50%{background-position: 50% 100%;}
+      100%{background-position: 0% 50%;}
+  }
