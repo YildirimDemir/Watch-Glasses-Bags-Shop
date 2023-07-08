@@ -19,7 +19,7 @@ function filterWatches() {
   const selectedMinPrice = parseFloat(priceMin.value) || 0;
   const selectedMaxPrice = parseFloat(priceMax.value) || Infinity;
 
-  for (var i = 0; i < watchBoxes.length; i++) {
+  for (let i = 0; i < watchBoxes.length; i++) {
     const watchBox = watchBoxes[i];
     const brand = watchBox.getAttribute("data-brand");
     const strap = watchBox.getAttribute("data-strap");
