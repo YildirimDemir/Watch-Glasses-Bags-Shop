@@ -5,11 +5,12 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: rgba(0, 0, 0, 0.4) url(main-img/watches-img/pr-w-bg.jpeg);
+    background: rgba(0, 0, 0, 0.3) url(main-img/watches-img/watch-bg.jpeg);
     background-blend-mode: darken;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
 }
 .watch-product-header h1{
     font-size: 8rem;
@@ -65,6 +66,32 @@
     border: none;
     outline: none;
     color: #fff;
+    background: linear-gradient(180deg, #000, #0a316f);
+  background-size: 200% 200%;
+  animation: bg 4s ease-in-out infinite;
+}
+@keyframes bg{
+    0%{background-position: 0% 50%;}
+    50%{background-position: 50% 100%;}
+    100%{background-position: 0% 50%;}
+}
+
+
+.filters{
+    width: 90%;
+    margin: 50px auto 50px auto;
+    text-align: center;
+}
+
+.filters select, input{
+    margin: 0px 30px 0px 5px;
+    color: #fff;
+    height: 40px;
+    width: 120px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    outline: none;
     background: linear-gradient(180deg, #000, #0a316f);
   background-size: 200% 200%;
   animation: bg 4s ease-in-out infinite;
