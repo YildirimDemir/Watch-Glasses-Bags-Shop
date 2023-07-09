@@ -86,6 +86,9 @@
 .filters {
     display: flex;
 }
+.bags-box {
+    font-weight: bold;
+}
 .filters p{
     margin-bottom: 0;    
 }
