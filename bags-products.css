@@ -1,3 +1,7 @@
+*::selection {
+    background-color: gray;
+    color: whitesmoke;
+}
 .bgsp {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.452), rgba(0, 0, 0, 0.411)),     url(/main-img/bags-img/bags-product-header.jpg);
     background-repeat: no-repeat;
@@ -95,6 +99,9 @@
 .filters p:first-child{
     margin-right: 10px;    
 }
+.filters-main {
+    display: flex;
+}
 .filters-main select {
     margin-right: 50px;
     background-color: transparent;
@@ -118,4 +125,25 @@
     justify-content: space-between;
     margin-bottom: 60px;
     margin-top: 60px;
+}
+.container {
+    margin: 0 !important;
+}
+@media screen and (max-width: 595px) {
+
+    .blnk {
+        height: 30vh;
+    }
+    .filters-main {
+        flex-direction: column;
+        display: flex;
+        align-items: end;
+    }
+    .material-filter {
+        margin-bottom: 15px;
+    }
+    .blnk h1 {
+        width: fit-content;
+        font-size: 40px;
+    }
 }
