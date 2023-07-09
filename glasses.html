@@ -86,8 +86,8 @@
           </div>
           <hr>
           <div class="gender-down d-flex justify-content-around align-items-center">
-            <button id="g-male-btn" type="button" class="btn btn-dark">Male</button>
-            <button id="g-female-btn" type="button" class="btn btn-dark">Female</button>
+            <button id="g-Male-btn" type="button" class="btn btn-dark">Male</button>
+            <button id="g-Female-btn" type="button" class="btn btn-dark">Female</button>
           </div>
 
         </div>
@@ -112,11 +112,11 @@
           </div>
           <hr>
           <div class="lens-down d-flex justify-content-around align-items-center">
-            <button id="l-green-btn" type="button" class="l-green btn"></button>
-            <button id="l-black-btn" type="button" class="l-black btn"></button>
-            <button id="l-blue-btn" type="button" class="l-blue btn"></button>
-            <button id="l-brown-btn" type="button" class="l-brown btn"></button>
-            <button id="l-gold-btn" type="button" class="l-gold btn"></button>
+            <button id="l-Green-btn" type="button" class="l-green btn"></button>
+            <button id="l-Black-btn" type="button" class="l-black btn"></button>
+            <button id="l-Blue-btn" type="button" class="l-blue btn"></button>
+            <button id="l-Brown-btn" type="button" class="l-brown btn"></button>
+            <button id="l-Gold-btn" type="button" class="l-gold btn"></button>
           </div>
 
         </div>
@@ -127,9 +127,9 @@
           </div>
           <hr>
           <div class="size-down d-flex justify-content-around align-items-center">
-            <button id="size-small-btn" type="button" class="btn btn-dark">Small</button>
-            <button id="size-medium-btn" type="button" class="btn btn-dark">Medium</button>
-            <button id="size-large-btn" type="button" class="btn btn-dark">Large</button>
+            <button id="s-Small-btn" type="button" class="btn btn-dark">Small</button>
+            <button id="s-Medium-btn" type="button" class="btn btn-dark">Medium</button>
+            <button id="s-Large-btn" type="button" class="btn btn-dark">Large</button>
           </div>
 
         </div>
@@ -140,11 +140,11 @@
           </div>
           <hr>
           <div class="frame-down d-flex justify-content-around align-items-center">
-            <button id="f-brown-btn" type="button" class="f-brown btn"></button>
-            <button id="f-black-btn" type="button" class="f-black btn"></button>
-            <button id="f-copper-btn" type="button" class="f-copper btn"></button>
-            <button id="f-gold-btn" type="button" class="f-gold btn"></button>
-            <button id="f-grey-btn" type="button" class="f-grey btn"></button>
+            <button id="f-Brown-btn" type="button" class="f-brown btn"></button>
+            <button id="f-Black-btn" type="button" class="f-black btn"></button>
+            <button id="f-Copper-btn" type="button" class="f-copper btn"></button>
+            <button id="f-Gold-btn" type="button" class="f-gold btn"></button>
+            <button id="f-Grey-btn" type="button" class="f-grey btn"></button>
           </div>
 
         </div>
@@ -155,9 +155,9 @@
           </div>
           <hr>
           <div class="material-down d-flex justify-content-around align-items-center">
-            <button id="material-acetate-btn" type="button" class="btn btn-dark">Acetate</button>
-            <button id="material-metal-btn" type="button" class="btn btn-dark">Metal</button>
-            <button id="material-nylon-btn" type="button" class="btn btn-dark">Nylon</button>
+            <button id="m-Acetate-btn" type="button" class="btn btn-dark">Acetate</button>
+            <button id="m-Metal-btn" type="button" class="btn btn-dark">Metal</button>
+            <button id="m-Nylon-btn" type="button" class="btn btn-dark">Nylon</button>
           </div>
 
         </div>
@@ -166,10 +166,16 @@
     </div>
 
     <div data-aos="fade-up" data-aos-anchor-placement="top-center">
+      <div class="reset d-flex justify-content-end align-items-center">
+        <button id="g-clear-btn" type="button" class="me-5 btn btn-dark">Clear</button>
+      </div>
+    </div>
+
+    <div data-aos="fade-up" data-aos-anchor-placement="top-center">
 
       <div class="glasses-product row p-5">
 
-        <div class="col-xxl-4 col-xl-6 col-lg-12 col-md-12 col-sm-12 col-xs-12 mt-4 d-flex justify-content-around">
+        <div id="Glasses-col" class="col-xxl-4 col-xl-6 col-lg-12 col-md-12 col-sm-12 col-xs-12 mt-5 mb-1 d-flex justify-content-around">
           <div class="g-product d-flex flex-column align-items-center">
             <div id="carouselExampleIndicators" class="carousel slide">
               <div class="carousel-indicators mb-4">
@@ -193,12 +199,19 @@
               </div>
             </div>
             <h1 class="text-center">AVIATOR</h1>
-            <h3 class="text-center">250$</h3>
+            <h3 id="g-product-price" class="text-center">250$</h3>
+            <div class="glasses-info d-flex">
+              <p id="g-gender" class="mt-1 me-3">Male</p>
+              <p id="g-lens" class="mt-1 me-3">Blue</p>
+              <p id="g-frame" class="mt-1 me-3">Gold</p>
+              <p id="g-size" class="mt-1 me-3">Medium</p>
+              <p id="g-material" class="mt-1 me-3">Metal</p>
+            </div>
             <button id="glasses-1-btn" type="button" class="g-detail btn mt-2">Go detail</button>
           </div>
         </div>
 
-        <div class="col-xxl-4 col-xl-6 col-lg-12 col-md-12 col-sm-12 col-xs-12 mt-4 d-flex justify-content-around">
+        <div id="Glasses-col" class="col-xxl-4 col-xl-6 col-lg-12 col-md-12 col-sm-12 col-xs-12 mt-5 mb-1 d-flex justify-content-around">
           <div class="g-product d-flex flex-column align-items-center">
             <div id="carouselExampleIndicators2" class="carousel slide">
               <div class="carousel-indicators mb-4">
@@ -222,12 +235,19 @@
               </div>
             </div>
             <h1 class="text-center">TITAN</h1>
-            <h3 class="text-center">400$</h3>
+            <h3 id="g-product-price" class="text-center">400$</h3>
+            <div class="glasses-info d-flex">
+              <p id="g-gender" class="mt-1 me-3">Male</p>
+              <p id="g-lens" class="mt-1 me-3">Green</p>
+              <p id="g-frame" class="mt-1 me-3">Grey</p>
+              <p id="g-size" class="mt-1 me-3">Large</p>
+              <p id="g-material" class="mt-1 me-3">Metal</p>
+            </div>
             <button id="glasses-2-btn" type="button" class="g-detail btn mt-2">Go detail</button>
           </div>
         </div>
 
-        <div class="col-xxl-4 col-xl-6 col-lg-12 col-md-12 col-sm-12 col-xs-12 mt-4 d-flex justify-content-around">
+        <div id="Glasses-col" class="col-xxl-4 col-xl-6 col-lg-12 col-md-12 col-sm-12 col-xs-12 mt-5 mb-1 d-flex justify-content-around">
           <div class="g-product d-flex flex-column align-items-center">
             <div id="carouselExampleIndicators3" class="carousel slide">
               <div class="carousel-indicators mb-4">
@@ -251,12 +271,19 @@
               </div>
             </div>
             <h1 class="text-center">CORRIGAN</h1>
-            <h3 class="text-center">150$</h3>
+            <h3 id="g-product-price" class="text-center">150$</h3>
+            <div class="glasses-info d-flex">
+              <p id="g-gender" class="mt-1 me-3">Female</p>
+              <p id="g-lens" class="mt-1 me-3">Brown</p>
+              <p id="g-frame" class="mt-1 me-3">Black</p>
+              <p id="g-size" class="mt-1 me-3">Small</p>
+              <p id="g-material" class="mt-1 me-3">Nylon</p>
+            </div>
             <button id="glasses-3-btn" type="button" class="g-detail btn mt-2">Go detail</button>
           </div>
         </div>
 
-        <div class="col-xxl-4 col-xl-6 col-lg-12 col-md-12 col-sm-12 col-xs-12 mt-4 d-flex justify-content-around">
+        <div id="Glasses-col" class="col-xxl-4 col-xl-6 col-lg-12 col-md-12 col-sm-12 col-xs-12 mt-5 mb-1 d-flex justify-content-around">
           <div class="g-product d-flex flex-column align-items-center">
             <div id="carouselExampleIndicators4" class="carousel slide">
               <div class="carousel-indicators mb-4">
@@ -280,12 +307,19 @@
               </div>
             </div>
             <h1 class="text-center">HAVANA</h1>
-            <h3 class="text-center">200$</h3>
+            <h3 id="g-product-price" class="text-center">200$</h3>
+            <div class="glasses-info d-flex">
+              <p id="g-gender" class="mt-1 me-3">Female</p>
+              <p id="g-lens" class="mt-1 me-3">Blue</p>
+              <p id="g-frame" class="mt-1 me-3">Grey</p>
+              <p id="g-size" class="mt-1 me-3">Medium</p>
+              <p id="g-material" class="mt-1 me-3">Acetate</p>
+            </div>
             <button id="glasses-4-btn" type="button" class="g-detail btn mt-2">Go detail</button>
           </div>
         </div>
 
-        <div class="col-xxl-4 col-xl-6 col-lg-12 col-md-12 col-sm-12 col-xs-12 mt-4 d-flex justify-content-around">
+        <div id="Glasses-col" class="col-xxl-4 col-xl-6 col-lg-12 col-md-12 col-sm-12 col-xs-12 mt-5 mb-1 d-flex justify-content-around">
           <div class="g-product d-flex flex-column align-items-center">
             <div id="carouselExampleIndicators5" class="carousel slide">
               <div class="carousel-indicators mb-4">
@@ -309,7 +343,14 @@
               </div>
             </div>
             <h1 class="text-center">DELTA</h1>
-            <h3 class="text-center">350$</h3>
+            <h3 id="g-product-price" class="text-center">350$</h3>
+            <div class="glasses-info d-flex">
+              <p id="g-gender" class="mt-1 me-3">Female</p>
+              <p id="g-lens" class="mt-1 me-3">Gold</p>
+              <p id="g-frame" class="mt-1 me-3">Gold</p>
+              <p id="g-size" class="mt-1 me-3">Small</p>
+              <p id="g-material" class="mt-1 me-3">Metal</p>
+            </div>
             <button id="glasses-5-btn" type="button" class="g-detail btn mt-2">Go detail</button>
           </div>
         </div>
@@ -455,6 +496,6 @@
   <script>
     AOS.init();
   </script>
-  <script src="script.js"></script>
+  <script src="glasses.js"></script>
 
 </html>
