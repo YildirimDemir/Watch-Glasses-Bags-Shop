@@ -151,3 +151,194 @@ footer p, h6{
 }
 
 /* =====NAVIGATION AND FOOTER END */
+/* Home Page Start */
+.owf {
+    overflow-x: hidden;
+}
+.home-header {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.301), rgba(0, 0, 0, 0.322)), url(/main-img/home-img/view-women-bag-stuff.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.home-blr {
+    /* backdrop-filter: blur(2px); */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-header h1 {
+    color: white;
+    font-size: 90px;
+    text-shadow: 0 0 20px;
+}
+.home-blnk {
+    width: 100%;
+    height: 13vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b1b1b1;
+    color: #fff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.home-blnk h2 {
+    font-size: 45px;
+    width: 700px;
+    text-align: center;
+    border-bottom: 1px solid #cfcfcf;
+}
+.home-w {
+    width: 100%;
+    height: 60vh;
+    background-color: black;
+    display: flex;
+}
+.home-w-l {
+    width: 50%;
+    height: 100%;
+    background-image: url(/main-img/home-img/close-up-clock-with-time-change.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 0 20px black;
+    z-index: 999;
+}
+.home-w-r {
+    width: 50%;
+    height: 100%;
+    background-color: black;
+    padding: 40px;
+    display: flex;
+}
+.w-list {
+    color: rgb(175, 175, 175);
+}
+.w-list ul li{
+    list-style:inside disc;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.home-w-r a {
+    float: right;
+    margin-left: auto;
+    margin-top: auto;
+}
+.home-w-r button {
+    width: 150px;
+    height: 45px;
+    background-color: #e4e4e44b;
+    backdrop-filter: blur(5px);
+    border: transparent;
+    color: white;
+    border-radius: 25px;
+    transition: all 300ms;
+}
+.home-w-r button:hover {
+    scale: 1.05;
+    background-color: #8b8b8b;
+}
+.home-g {
+    width: 100%;
+    height: 60vh;
+    background-color: #dddddd;
+    display: flex;
+}
+.home-g-l {
+    width: 50%;
+    height: 100%;
+    background-color: #dddddd;
+    display: flex;
+    padding: 40px;
+}
+.g-list {
+    color: rgb(87, 87, 87);
+}
+.g-list ul li{
+    list-style:inside disc;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.home-g-l a {
+    float: right;
+    margin-left: auto;
+    margin-top: auto;
+}
+.home-g-l button {
+    width: 150px;
+    height: 45px;
+    background-color: #00000080;
+    backdrop-filter: blur(5px);
+    border: transparent;
+    color: rgb(255, 255, 255);
+    border-radius: 25px;
+    transition: all 300ms;
+}
+.home-g-l button:hover {
+    scale: 1.05;
+    background-color: #8b8b8b;
+}
+.home-g-r {
+    width: 50%;
+    height: 100%;
+    background: url(/main-img/home-img/sunglasses-yellow-beach-towel.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 999;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.home-b {
+    width: 100%;
+    height: 60vh;
+    background-color: burlywood;
+    display: flex;
+}
+.home-b-l {
+    width: 50%;
+    height: 100%;
+    background: url(/main-img/home-img/levitating-product-display-with-handbag.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 0 20px black;
+    z-index: 999;
+}
+.home-b-r {
+    width: 50%;
+    height: 100%;
+    background-color: burlywood;
+    display: flex;
+    padding: 40px;
+}
+.b-list {
+    color: rgb(165, 101, 42);
+}
+.b-list ul li{
+    list-style:inside disc;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.home-b-r a {
+    float: right;
+    margin-left: auto;
+    margin-top: auto;
+}
+.home-b-r button {
+    width: 150px;
+    height: 45px;
+    background-color: #b9552d96;
+    backdrop-filter: blur(5px);
+    border: transparent;
+    color: white;
+    border-radius: 25px;
+    transition: all 300ms;
+}
+.home-b-r button:hover {
+    scale: 1.05;
+    background-color: #be7118e1;
+}
