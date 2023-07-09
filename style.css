@@ -342,3 +342,382 @@ footer p, h6{
     scale: 1.05;
     background-color: #be7118e1;
 }
+
+/****************************************** Glasses-CSS-START **********************************************************/
+.glasses-content {
+    width: 100%;
+    height: auto;
+    background: linear-gradient(0deg, rgba(144,143,143,1) 0%, rgba(255,255,255,1) 72%, rgba(255,255,255,1) 100%);
+    margin-top: auto;
+}
+
+.glasses-video video {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.glasses-price input {
+    width: 70%;
+    border: 2px solid black;
+}
+
+.glasses-price,
+.glasses-lens,
+.glasses-frame,
+.glasses-size,
+.glasses-material {
+    border-left: 2px solid black;
+}
+
+.glasses-gender,
+.glasses-price,
+.glasses-lens,
+.glasses-size,
+.glasses-frame,
+.glasses-material {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.lens-down,
+.frame-down,
+.gender-down,
+.price-down,
+.size-down,
+.frame-down,
+.material-down {
+    width: 100%;
+    height: 100%;
+}
+
+.gender-up h2,.lens-up h2,.frame-up h2,
+.price-up h2,.size-up h2,.material-up h2{
+    font-size: 100%;
+}
+
+.price-down input {
+    width: 60%;
+    height: 5vh;
+}
+.size-down button,.material-down button,.price-down button,.gender-down button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+    font-size: 70%;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.size-down button:hover,.material-down button:hover,.price-down button:hover,.gender-down button:hover{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.l-green {
+    background-color: green;
+    width: 13%;
+    height: 70%;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.l-green:hover{
+    background-color: green;
+    border: 2px solid black;
+}
+
+.l-black,
+.f-black {
+    background-color: black;
+    width: 13%;
+    height: 70%;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.l-black:hover,.f-black:hover{
+    background-color: black;
+    border: 2px solid red;
+}
+
+.l-blue {
+    background-color: rgb(68, 68, 247);
+    width: 13%;
+    height: 70%;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.l-blue:hover{
+    background-color: rgb(68, 68, 247);
+    border: 2px solid black;
+}
+
+.l-brown,
+.f-brown {
+    background-color: rgb(119, 79, 55);
+    width: 13%;
+    height: 70%;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.l-brown:hover,.f-brown:hover{
+    background-color: rgb(119, 79, 55);
+    border: 2px solid black;
+}
+
+.l-gold,
+.f-gold {
+    background: linear-gradient(341deg, rgba(253, 187, 45, 1) 20%, rgba(255, 249, 235, 1) 56%, rgba(255, 218, 0, 1) 89%);
+    width: 13%;
+    height: 70%;
+    border-radius: 50%;
+    box-shadow: rgba(243, 237, 237, 0.17) 0px -23px 25px 0px inset, rgba(255, 254, 254, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.l-gold:hover,.f-gold:hover{
+    background: linear-gradient(341deg, rgba(253, 187, 45, 1) 20%, rgba(255, 249, 235, 1) 56%, rgba(255, 218, 0, 1) 89%);
+    border: 2px solid black;
+}
+
+.f-copper {
+    background: linear-gradient(341deg, rgba(206, 143, 126, 1) 20%, rgba(255, 249, 235, 1) 56%, rgba(206, 143, 126, 1) 89%);
+    width: 13%;
+    height: 70%;
+    border-radius: 50%;
+    box-shadow: rgba(219, 217, 217, 0.17) 0px -23px 25px 0px inset, rgba(245, 242, 242, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.f-copper:hover{
+    background: linear-gradient(341deg, rgba(206, 143, 126, 1) 20%, rgba(255, 249, 235, 1) 56%, rgba(206, 143, 126, 1) 89%);
+    border: 2px solid black;
+}
+
+.f-grey {
+    background-color: rgb(158, 158, 158);
+    width: 13%;
+    height: 70%;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.f-grey:hover{
+    background-color: rgb(158, 158, 158);
+    border: 2px solid black;
+}
+
+.g-product{
+    padding: 1rem;
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.474) 0px 30px 60px -12px, rgba(0, 0, 0, 0.633) 0px 18px 36px -18px;
+}
+
+.g-detail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100%;
+    width: 45%;
+    height: 10%;
+    background-color: white;
+    border: 2px solid rgb(33, 37, 41);
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.g-detail:hover{
+    border: 2px solid rgb(33, 37, 41);
+    color: white;
+    background-color: rgb(33, 37, 41);
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+#g-clear-btn{
+width: 10%;
+height: 20%;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 80%;
+background-color: brown!important;
+box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+#g-clear-btn:hover{
+box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.carousel-indicators{
+    margin: auto;
+    background-color: rgba(33, 37, 41, 0.813);
+    width: 30%;
+    border-radius: 30px;
+}
+.reset{
+    width: 100%;
+}
+
+.glasses-info p{
+    font-size: 85%;
+}
+
+@media (max-width:576px){
+.l-green,.l-black,.l-blue,.l-brown,.l-gold,
+.f-black,.f-brown,.f-copper,.f-gold,.f-grey
+{
+    height: 5vh;
+}
+}
+
+@media (max-width:768px){
+    .reset{
+        justify-content: center!important;
+    }
+    .reset button{
+        margin-right: 0rem!important;
+        width: 40%!important;
+        font-size: 90%!important;
+    }
+}
+
+/****************************************** Glasses-CSS-END **********************************************************/
+/*************************************** ABOUT-US-CSS-START  ***********************************************/
+.about-img {
+    background-image: url(/main-img/about-img/stretched-3840-2160-1223603.jpg);
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-size: cover;
+}
+
+.about-img h1 {
+    color: white;
+}
+
+.about-info {
+    width: 100%;
+    height: 100%;
+    background-color: blueviolet;
+    border-radius: 40px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.9108018207282913) 0%, rgba(0, 0, 0, 1) 56%, rgba(0, 0, 0, 0.9051995798319328) 100%);
+    animation: AboutInfo 3s infinite;
+}
+
+.about-info p {
+    color: white;
+}
+
+.about-content{
+    margin-bottom: 25rem;
+}
+
+.about-a{
+    margin-top: 10rem;
+}
+
+@keyframes AboutInfo {
+    0% {
+        box-shadow: rgb(0, 0, 0) 0px 22px 70px 4px;
+    }
+
+    50% {
+        box-shadow: rgba(255, 255, 255, 0.778) 0px 22px 70px 4px;
+    }
+
+    100% {
+        box-shadow: rgb(0, 0, 0) 0px 22px 70px 4px;
+    }
+}
+
+.wrapper img{
+    border-radius: 30px;
+    animation: AboutInfo 3s infinite;
+}
+
+.card-a{
+    width: 80%;
+    height: 40vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 5rem;
+    perspective: 2500px;
+    margin: 0 50px;
+    background: transparent;
+}
+
+.wrapper {
+    transition: all 0.5s;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+
+.card-a:hover .wrapper {
+    transform: perspective(900px) translateY(-5%) rotateX(25deg) translateZ(0);
+    box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+}
+
+.wrapper::before,
+.wrapper::after {
+    content: "";
+    opacity: 0;
+    width: 100%;
+    height: 80px;
+    transition: all 0.5s;
+    position: absolute;
+    left: 0;
+}
+
+.wrapper::before {
+    top: 0;
+    height: 100%;
+    background-image: linear-gradient(to top,
+            transparent 46%,
+            rgba(12, 13, 19, 0.5) 68%,
+            rgba(12, 13, 19) 97%);
+}
+
+.wrapper::after {
+    bottom: 0;
+    opacity: 1;
+    background-image: linear-gradient(to bottom,
+            transparent 46%,
+            rgba(12, 13, 19, 0.5) 68%,
+            rgba(12, 13, 19) 97%);
+}
+
+.card-a:hover .wrapper::before,
+.wrapper::after {
+    opacity: 1;
+}
+
+.card-a:hover .wrapper::after {
+    height: 120px;
+}
+
+.title {
+    width: 100%;
+    transition: transform 0.5s;
+}
+
+.card-a:hover .title {
+    transform: translate3d(0%, -50px, 100px);
+}
+
+.character {
+    width: 100%;
+    opacity: 0;
+    transition: all 0.5s;
+    position: absolute;
+    z-index: -1;
+}
+
+.card-a:hover .character {
+    opacity: 1;
+    transform: translate3d(0%, -30%, 100px);
+}
+/*************************************** ABOUT-US-CSS-END  ***********************************************/
