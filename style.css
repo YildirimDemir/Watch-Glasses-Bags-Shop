@@ -721,3 +721,491 @@ box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px
     transform: translate3d(0%, -30%, 100px);
 }
 /*************************************** ABOUT-US-CSS-END  ***********************************************/
+/*************************************** BAGS-CSS *****************************************************/
+.head-1 {
+    background: url(main-img/bags-img/most-iconic-it-bags.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+    text-align: center;
+}
+.blrh {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    backdrop-filter: blur(2px);
+}
+.head-1 h1 {
+    color: white;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 200px;
+    text-shadow: 0 0 9px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+.blnk {
+    height: 150px;
+    background-color: #CAECED;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.dior {
+    display: flex;
+    background: linear-gradient(to left, #D2D4D3, rgb(148, 148, 148));
+}
+.dior-img {
+    background-image: url(main-img/bags-img/bag-main.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 50%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 20px;
+    padding: 30px;
+    display: flex;
+    z-index: 999;
+    float: left;
+    margin-right: 50%;
+    transition: all 300ms ease-out;
+    position:absolute;
+}
+.dior h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+    margin-top: auto;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    text-shadow: 0px 0px 8px;
+}
+.dior-aciklama {
+    background:#D2D4D3;
+    height: 600px;
+    width: 50%;
+    display: flex;
+    padding: 30px;
+    animation: myMove 10s infinite;
+    z-index: 1;
+    position: relative;
+}
+.dior-list ul li {
+    list-style:inside disc !important;
+     font-size: 19px;
+     margin-top: 1rem;
+}
+.dior-aciklama a {
+    float: right;
+    margin-left: auto;
+    margin-top: auto;
+}
+.dior-aciklama button {
+    background-color: transparent;
+    border: 1px solid gray;
+    padding: 10px;
+    width: 140px;
+    height: 50px;
+    float: right;
+    margin-left: auto;
+    margin-top: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px gray;
+    transition: all 500ms;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+.dior-aciklama button:hover {
+    scale: 1.05;
+}
+.dior-aciklama h2, .dior-aciklama li {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+
+}
+.gucci {
+    display: flex;
+    background: linear-gradient(to right, #c9ae90, #F6EDDD);
+}
+.gucci-img {
+    background-image: url(main-img/bags-img/gucci.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 50%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 20px;
+    padding: 30px;
+    display: flex;
+    z-index: 999;
+    float: right;
+    margin-left: 50%;
+    transition: all 300ms ease-out;
+    position:absolute;
+}
+.gucci h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+    margin-top: auto;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    text-shadow: -8px -5px 5px #81582F;
+}
+.gucci-aciklama {
+    background:#c9ae90;
+    height: 600px;
+    width: 50%;
+    display: flex;
+    padding: 30px;
+    animation: myMove2 10s infinite;
+    z-index: 1;
+    margin-left: auto;
+    position: relative;
+}
+.gucci-list ul li {
+    list-style:inside disc !important;
+     font-size: 19px;
+     margin-top: 1rem;
+}
+.gucci-aciklama a {
+    float: right;
+    margin-left: auto;
+    margin-top: auto;
+}
+.gucci-aciklama button {
+    background-color: transparent;
+    border: 1px solid gray;
+    padding: 10px;
+    width: 140px;
+    height: 50px;
+    float: right;
+    margin-left: auto;
+    margin-top: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px gray;
+    transition: all 500ms;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+.gucci-aciklama button:hover {
+    scale: 1.05;
+}
+.gucci-aciklama h2, .gucci-aciklama li {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+
+}
+.prada {
+    display: flex;
+    background: linear-gradient(to left, #B1C0DF, #8399CA);
+}
+.prada-img {
+    background-image: url(main-img/bags-img/prada.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 50%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 20px;
+    padding: 30px;
+    display: flex;
+    z-index: 999;
+    float: left;
+    margin-right: 50%;
+    transition: all 300ms ease-out;
+    position:absolute;
+}
+.prada h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    text-shadow: 0px 0px 8px black;
+}
+.prada-aciklama {
+    background:#B1C0DF;
+    height: 600px;
+    width: 50%;
+    display: flex;
+    padding: 30px;
+    animation: myMove3 10s infinite;
+    z-index: 1;
+    position: relative;
+}
+.prada-list ul li {
+    list-style:inside disc !important;
+     font-size: 19px;
+     margin-top: 1rem;
+}
+.prada-aciklama a {
+    float: right;
+    margin-left: auto;
+    margin-top: auto;
+}
+.prada-aciklama button {
+    background-color: transparent;
+    border: 1px solid gray;
+    padding: 10px;
+    width: 140px;
+    height: 50px;
+    float: right;
+    margin-left: auto;
+    margin-top: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px gray;
+    transition: all 500ms;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+.prada-aciklama button:hover {
+    scale: 1.05;
+}
+.prada-aciklama h2, .prada-aciklama li {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+
+}
+.lacoste {
+    display: flex;
+    background: linear-gradient(to right, #ff5757, #CAECED);
+}
+.lacoste-img {
+    background-image: url(main-img/bags-img/lacoste.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: 50%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 20px;
+    padding: 30px;
+    display: flex;
+    z-index: 999;
+    float: right;
+    margin-left: 50%;
+    transition: all 300ms ease-out;
+    position:absolute;
+}
+.lacoste h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    text-shadow: -8px 5px 5px #64939D;
+}
+.lacoste-aciklama {
+    background:#73d7ff;
+    height: 600px;
+    width: 50%;
+    display: flex;
+    padding: 30px;
+    animation: myMove4 10s infinite;
+    z-index: 1;
+    margin-left: auto;
+    position: relative;
+}
+.lacoste-list ul li {
+    list-style:inside disc !important;
+     font-size: 19px;
+     margin-top: 1rem;
+}
+.lacoste-aciklama a {
+    float: right;
+    margin-left: auto;
+    margin-top: auto;
+}
+.lacoste-aciklama button {
+    background-color: transparent;
+    border: 1px solid gray;
+    padding: 10px;
+    width: 140px;
+    height: 50px;
+    float: right;
+    margin-left: auto;
+    margin-top: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px gray;
+    transition: all 500ms;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+.lacoste-aciklama button:hover {
+    scale: 1.05;
+}
+.lacoste-aciklama h2, .lacoste-aciklama li {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+
+}
+@keyframes myMove {
+    50% {
+        background-color: #b8b8b8;
+    }
+}
+@keyframes myMove2 {
+    50% {
+        background-color: #f7e2bd;
+    }
+}
+@keyframes myMove3 {
+    50% {
+        background-color: #B1C0DF;
+    }
+}
+@keyframes myMove4 {
+    50% {
+        background-color: #CAECED;
+    }
+}
+/*************************************************BAGS-CSS-END********************************************/
+/************************************************BAGS-PRODUCT-START*********************************************/
+*::selection {
+    background-color: gray;
+    color: whitesmoke;
+}
+.bgsp {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.452), rgba(0, 0, 0, 0.411)),     url(/main-img/bags-img/bags-product-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.bgsp h1{
+    font-size: 90px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    text-shadow: 0 0 10px;
+} 
+.blnk {
+    height: 140px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffffb0;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.555) 0px 18px 36px -18px inset;
+}
+.blnk h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    padding-bottom: 5px;
+    width: 600px;
+    text-align: center;
+    border-bottom: 1px solid rgba(163, 163, 163, 0.418);
+}
+.back-genel-baya-of {
+    background-color: #d1d1d1;
+}
+.bck-bags {
+    border-top: 3px solid #c5c5c5;
+}
+.bags-products {
+    display: flex;
+    flex-direction: column;
+}
+.bags-box {
+    height: 450px;
+    width: 330px;
+    border: 1px outset black;
+    border-radius: 6px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.671) 0px 30px 60px -30px;
+    transition: all 300ms;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 20px;
+    background-color: white
+}
+.details-bags button {
+    padding: 6px;
+    width: 150px;
+    background-color: rgb(184, 184, 184);
+    border: 1px solid rgba(165, 163, 163, 0.452);
+    border-radius: 75px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    transition: all 300ms;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.details-bags button:hover {
+    background-color: gray;
+}
+.bags-box img {
+    width: 100%;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+.bags-box:hover {
+    scale: 1.03;
+}
+.filters {
+    display: flex;
+}
+.bags-box {
+    font-weight: bold;
+}
+.filters p{
+    margin-bottom: 0;    
+}
+.filters p:first-child{
+    margin-right: 10px;    
+}
+.filters-main {
+    display: flex;
+}
+.filters-main select {
+    margin-right: 50px;
+    background-color: transparent;
+    border: 1px solid rgb(194, 194, 194);
+    padding: 4px;
+    width: 120px;
+    border-radius: 60px;
+}
+.filters-main option {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+.filters-main label {
+    margin-left: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+.abcMain {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+.container {
+    margin: 0 !important;
+}
+@media screen and (max-width: 595px) {
+
+    .blnk {
+        height: 30vh;
+    }
+    .filters-main {
+        flex-direction: column;
+        display: flex;
+        align-items: end;
+    }
+    .material-filter {
+        margin-bottom: 15px;
+    }
+    .blnk h1 {
+        width: fit-content;
+        font-size: 40px;
+    }
+}
+/********************************************BAGS-PRODUCTS-END****************************/

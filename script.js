@@ -159,3 +159,61 @@ clearbtn.addEventListener("click",function Clear() {
 });
 
 //************************************** Glasses-JS-END ********************************************/
+//***************************************BAGS-JS-START*********************************************/
+const dior = document.getElementById("slideBox");
+const gucci = document.getElementById("slideBox2");
+const prada = document.getElementById("slideBox3");
+const lacoste = document.getElementById("slideBox4")
+
+dior.addEventListener("click", function() {
+    dior.style.marginRight= "0"
+    dior.style.transition= "all 1s ease-in-out"
+    dior.style.position= "relative"
+})
+gucci.addEventListener("click", function() {
+    gucci.style.marginLeft= "0"
+    gucci.style.transition= "all 1s ease-in-out"
+    gucci.style.position= "relative"
+})
+prada.addEventListener("click", function() {
+    prada.style.marginRight= "0"
+    prada.style.transition= "all 1s ease-in-out"
+    prada.style.position= "relative"
+})
+lacoste.addEventListener("click", function() {
+    lacoste.style.marginLeft= "0"
+    lacoste.style.transition= "all 1s ease-in-out"
+    lacoste.style.position= "relative"
+})
+//***************************************BAGS-JS-END*********************************************/
+//***************************************BAGS-PRODUCTS-JS-START*********************************************/
+const materialFilter = document.getElementById("material");
+const colorFilter = document.getElementById("color");
+
+materialFilter.addEventListener("change", filterBags);
+colorFilter.addEventListener("change", filterBags);
+
+const bagsBoxes = document.querySelectorAll(".bags-box");
+
+function filterBags() {
+    const selectedMaterial = materialFilter.value;
+    const selectedColor = colorFilter.value;
+
+    for (let i =0; i < bagsBoxes.length; i++) {
+        const bagBox = bagsBoxes[i];
+        const material = bagBox.getAttribute("data-material");
+        const color = bagBox.getAttribute("data-color");
+
+        const materialMatch = (selectedMaterial === "All" || material === selectedMaterial);
+        const colorMatch = (selectedColor === "All" || color === selectedColor);
+
+        if (materialMatch && colorMatch) {
+            bagBox.style.display = "block";
+        } else {
+            bagBox.style.display = "none";
+        }
+    }
+}
+//***************************************BAGS-PRODUCTS-JS-END*********************************************/
+
+
